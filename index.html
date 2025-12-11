@@ -1,0 +1,1365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Habanero Bar & Grill | Authentic Mexican Seafood | Burien, WA</title>
+    <meta name="description" content="Experience the best Mexican seafood in Seattle at El Habanero Bar & Grill. Authentic aguachile, ceviche, grilled octopus & live music in Burien, WA.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader" id="preloader">
+        <div class="preloader-inner">
+            <div class="chili-loader">
+                <svg viewBox="0 0 100 100" class="chili">
+                    <path class="chili-body" d="M50 10 Q70 20 75 50 Q78 80 50 95 Q22 80 25 50 Q30 20 50 10" fill="#c41e3a"/>
+                    <path class="chili-stem" d="M45 10 Q50 0 55 10" stroke="#228B22" stroke-width="4" fill="none"/>
+                </svg>
+            </div>
+            <p class="loading-text">Preparando sabores...</p>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">
+                <span class="logo-icon">&#127798;</span>
+                <span class="logo-text">El Habanero</span>
+            </a>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link active" data-translate="nav_home">Home</a></li>
+                <li><a href="#about" class="nav-link" data-translate="nav_about">About</a></li>
+                <li><a href="#menu" class="nav-link" data-translate="nav_menu">Menu</a></li>
+                <li><a href="events.html" class="nav-link" data-translate="nav_events">Events</a></li>
+                <li><a href="#gallery" class="nav-link" data-translate="nav_gallery">Gallery</a></li>
+                <li><a href="#reviews" class="nav-link" data-translate="nav_reviews">Reviews</a></li>
+                <li><a href="#contact" class="nav-link" data-translate="nav_contact">Contact</a></li>
+            </ul>
+            <button class="lang-toggle" id="lang-toggle" aria-label="Toggle language">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+                <span>ES</span>
+            </button>
+            <a href="#reservations" class="btn btn-primary nav-cta" data-translate="nav_reserve">Reserve Table</a>
+            <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-bg">
+            <div class="hero-overlay"></div>
+            <div class="floating-elements">
+                <span class="float-item chili-1">&#127798;</span>
+                <span class="float-item lime-1">&#127819;</span>
+                <span class="float-item shrimp-1">&#129424;</span>
+                <span class="float-item chili-2">&#127798;</span>
+                <span class="float-item lime-2">&#127819;</span>
+            </div>
+        </div>
+        <div class="hero-content">
+            <p class="hero-subtitle animate-fade-up" data-translate="hero_welcome">Welcome to</p>
+            <h1 class="hero-title animate-fade-up delay-1">
+                <span class="title-line">El Habanero</span>
+                <span class="title-accent">Bar & Grill</span>
+            </h1>
+            <p class="hero-tagline animate-fade-up delay-2" data-translate="hero_tagline">Authentic Mexican Seafood & Live Entertainment</p>
+            <p class="hero-description animate-fade-up delay-3" data-translate="hero_desc">
+                Where the freshest mariscos meet the vibrant spirit of Mexico. Join us for an unforgettable dining experience in Burien, WA.
+            </p>
+            <div class="hero-cta animate-fade-up delay-4">
+                <a href="#menu" class="btn btn-primary btn-lg">
+                    <span data-translate="hero_cta_menu">Explore Menu</span>
+                    <svg class="btn-arrow" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </a>
+                <a href="#reservations" class="btn btn-outline btn-lg" data-translate="hero_cta_reserve">Make Reservation</a>
+            </div>
+            <div class="hero-stats animate-fade-up delay-5">
+                <div class="stat">
+                    <span class="stat-number" data-count="150">0</span>
+                    <span class="stat-label" data-translate="hero_stat_reviews">5-Star Reviews</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat">
+                    <span class="stat-number" data-count="50">0</span>+
+                    <span class="stat-label" data-translate="hero_stat_menu">Menu Items</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat">
+                    <span class="stat-icon">&#127926;</span>
+                    <span class="stat-label" data-translate="hero_stat_music">Live Music</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-images">
+                    <div class="image-stack">
+                        <div class="about-img about-img-1">
+                            <div class="img-placeholder" style="background: linear-gradient(135deg, #c41e3a 0%, #8B0000 100%);">
+                                <span class="placeholder-icon">&#127869;</span>
+                                <span class="placeholder-text">Fresh Seafood Daily</span>
+                            </div>
+                        </div>
+                        <div class="about-img about-img-2">
+                            <div class="img-placeholder" style="background: linear-gradient(135deg, #228B22 0%, #006400 100%);">
+                                <span class="placeholder-icon">&#127798;</span>
+                                <span class="placeholder-text">Authentic Flavors</span>
+                            </div>
+                        </div>
+                        <div class="experience-badge">
+                            <span class="exp-years">10+</span>
+                            <span class="exp-text">Years of<br>Excellence</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-content">
+                    <span class="section-badge" data-translate="about_badge">Our Story</span>
+                    <h2 class="section-title"><span data-translate="about_title">A Taste of Mexico's</span> <span class="highlight" data-translate="about_title_highlight">Coastline</span></h2>
+                    <p class="about-lead" data-translate="about_lead">
+                        Nestled in the heart of Burien, El Habanero Bar & Grill brings the vibrant
+                        flavors of Mexican coastal cuisine to the Pacific Northwest.
+                    </p>
+                    <p class="about-text" data-translate="about_text">
+                        Our kitchen celebrates the rich traditions of Mexican seafood, from perfectly
+                        prepared aguachiles and ceviches to our signature grilled octopus. Every dish
+                        tells a story of passion, authenticity, and the bold spirit of the habanero pepper.
+                    </p>
+                    <div class="about-features">
+                        <div class="feature">
+                            <div class="feature-icon">&#129424;</div>
+                            <div class="feature-text">
+                                <h4 data-translate="about_feature1_title">Fresh Seafood</h4>
+                                <p data-translate="about_feature1_desc">Daily-sourced premium seafood</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-icon">&#127798;</div>
+                            <div class="feature-text">
+                                <h4 data-translate="about_feature2_title">Authentic Recipes</h4>
+                                <p data-translate="about_feature2_desc">Traditional Mexican flavors</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-icon">&#127926;</div>
+                            <div class="feature-text">
+                                <h4 data-translate="about_feature3_title">Live Entertainment</h4>
+                                <p data-translate="about_feature3_desc">Music & karaoke nights</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-icon">&#127867;</div>
+                            <div class="feature-text">
+                                <h4 data-translate="about_feature4_title">Craft Cocktails</h4>
+                                <p data-translate="about_feature4_desc">Signature micheladas & more</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#menu" class="btn btn-primary">
+                        <span data-translate="about_cta">View Our Menu</span>
+                        <svg class="btn-arrow" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="about-pattern"></div>
+    </section>
+
+    <!-- Signature Dishes Carousel -->
+    <section class="signatures">
+        <div class="container">
+            <div class="section-header center">
+                <span class="section-badge" data-translate="signatures_badge">Chef's Selection</span>
+                <h2 class="section-title"><span data-translate="signatures_title">Signature</span> <span class="highlight" data-translate="signatures_title_highlight">Creations</span></h2>
+                <p class="section-desc" data-translate="signatures_desc">Discover our most beloved dishes, crafted with passion and the freshest ingredients</p>
+            </div>
+        </div>
+        <div class="signature-carousel">
+            <div class="carousel-track" id="carousel-track">
+                <div class="signature-card">
+                    <div class="card-image">
+                        <div class="img-placeholder seafood-gradient">
+                            <span class="dish-icon">&#129424;</span>
+                        </div>
+                        <span class="card-badge">Most Popular</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Aguachile Verde</h3>
+                        <p>Fresh shrimp cured in lime juice with serrano peppers, cucumber, and red onion</p>
+                        <span class="card-price">$18.95</span>
+                    </div>
+                </div>
+                <div class="signature-card">
+                    <div class="card-image">
+                        <div class="img-placeholder fire-gradient">
+                            <span class="dish-icon">&#128037;</span>
+                        </div>
+                        <span class="card-badge">Chef's Special</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Pulpo a la Parrilla</h3>
+                        <p>Grilled octopus with garlic butter, roasted peppers, and chimichurri</p>
+                        <span class="card-price">$24.95</span>
+                    </div>
+                </div>
+                <div class="signature-card">
+                    <div class="card-image">
+                        <div class="img-placeholder ocean-gradient">
+                            <span class="dish-icon">&#129426;</span>
+                        </div>
+                        <span class="card-badge">House Favorite</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Ceviche Mixto</h3>
+                        <p>Octopus, crab, and shrimp with cucumber, tomatoes, cilantro, and avocado</p>
+                        <span class="card-price">$21.95</span>
+                    </div>
+                </div>
+                <div class="signature-card">
+                    <div class="card-image">
+                        <div class="img-placeholder sunset-gradient">
+                            <span class="dish-icon">&#127790;</span>
+                        </div>
+                        <span class="card-badge">Spicy</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Camarones a la Diabla</h3>
+                        <p>Jumbo shrimp sautéed in our fiery red chile diabla sauce</p>
+                        <span class="card-price">$19.95</span>
+                    </div>
+                </div>
+                <div class="signature-card">
+                    <div class="card-image">
+                        <div class="img-placeholder golden-gradient">
+                            <span class="dish-icon">&#127790;</span>
+                        </div>
+                        <span class="card-badge">Shareable</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Molcajete Mariscos</h3>
+                        <p>Sizzling volcanic stone bowl with shrimp, octopus, fish, and our signature salsa</p>
+                        <span class="card-price">$32.95</span>
+                    </div>
+                </div>
+                <div class="signature-card">
+                    <div class="card-image">
+                        <div class="img-placeholder lime-gradient">
+                            <span class="dish-icon">&#129424;</span>
+                        </div>
+                        <span class="card-badge">Fresh</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Tostada de Jaiba</h3>
+                        <p>Crispy tostada topped with fresh crab, avocado, and zesty lime dressing</p>
+                        <span class="card-price">$16.95</span>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-controls">
+                <button class="carousel-btn prev" id="carousel-prev" aria-label="Previous">
+                    <svg viewBox="0 0 24 24"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+                </button>
+                <button class="carousel-btn next" id="carousel-next" aria-label="Next">
+                    <svg viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Premium Showcase - Owner's Professional Photos -->
+    <section class="premium-showcase" id="showcase">
+        <div class="container">
+            <div class="section-header center">
+                <span class="premium-badge">
+                    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                    <span data-translate="showcase_badge">From Our Kitchen</span>
+                </span>
+                <h2 class="section-title"><span data-translate="showcase_title">What We</span> <span class="highlight" data-translate="showcase_title_highlight">Offer</span></h2>
+                <p class="section-desc" data-translate="showcase_desc">Professional photos straight from the owners - showcasing our finest dishes prepared with passion and authenticity</p>
+            </div>
+        </div>
+        <div class="showcase-slideshow">
+            <div class="showcase-main" id="showcase-main">
+                <div class="showcase-slide active" data-index="0">
+                    <img src="images/food/532953912_1301940525274737_483710501257204837_n.jpg" alt="Camarones al Mojo de Ajo">
+                    <div class="showcase-caption"><h4>Camarones al Mojo de Ajo</h4><p>Succulent garlic butter shrimp</p></div>
+                </div>
+                <div class="showcase-slide" data-index="1">
+                    <img src="images/food/552384690_1339546491514140_1337704905977443888_n.jpg" alt="Birria Tacos">
+                    <div class="showcase-caption"><h4>Birria Tacos</h4><p>Crispy tacos with rich consommé</p></div>
+                </div>
+                <div class="showcase-slide" data-index="2">
+                    <img src="images/food/548305161_1333964278739028_3917558894532074547_n.jpg" alt="Carnitas Plate">
+                    <div class="showcase-caption"><h4>Carnitas</h4><p>Slow-braised pork with rice and beans</p></div>
+                </div>
+                <div class="showcase-slide" data-index="3">
+                    <img src="images/food/576334405_1382407620561360_6648632343322302283_n.jpg" alt="Victoria Beer Bucket">
+                    <div class="showcase-caption"><h4>Ice Cold Cervezas</h4><p>Premium Mexican beers on ice</p></div>
+                </div>
+                <div class="showcase-slide" data-index="4">
+                    <img src="images/food/544569518_1323369653131824_2800771630620438842_n.jpg" alt="Seafood Spread">
+                    <div class="showcase-caption"><h4>Mariscos Feast</h4><p>Fresh seafood rolls and ceviche</p></div>
+                </div>
+                <div class="showcase-slide" data-index="5">
+                    <img src="images/food/569142228_1368637205271735_4676674214545042076_n.jpg" alt="Camarones a la Diabla">
+                    <div class="showcase-caption"><h4>Camarones a la Diabla</h4><p>Spicy devil shrimp in red sauce</p></div>
+                </div>
+                <div class="showcase-slide" data-index="6">
+                    <img src="images/food/556686651_1348530603949062_6814197110277902358_n.jpg" alt="Salmon Pasta">
+                    <div class="showcase-caption"><h4>Salmon con Pasta</h4><p>Grilled salmon over creamy pasta</p></div>
+                </div>
+                <div class="showcase-slide" data-index="7">
+                    <img src="images/food/577912198_1383214120480710_4606442802895735571_n.jpg" alt="Fresh Oysters">
+                    <div class="showcase-caption"><h4>Ostiones Frescos</h4><p>Fresh oysters on the half shell</p></div>
+                </div>
+                <div class="showcase-slide" data-index="8">
+                    <img src="images/food/552933512_1340884751380314_4310325384255939445_n.jpg" alt="Molcajete">
+                    <div class="showcase-caption"><h4>Molcajete Mixto</h4><p>Sizzling volcanic stone feast</p></div>
+                </div>
+                <div class="showcase-slide" data-index="9">
+                    <img src="images/food/583747095_1388716513263804_912517427864590820_n.jpg" alt="Ceviche">
+                    <div class="showcase-caption"><h4>Ceviche Fresco</h4><p>Fresh citrus-cured seafood</p></div>
+                </div>
+                <div class="showcase-slide" data-index="10">
+                    <img src="images/food/536863708_1309459674522822_2171293173821515684_n.jpg" alt="Tacos">
+                    <div class="showcase-caption"><h4>Street Tacos</h4><p>Authentic Mexican tacos</p></div>
+                </div>
+                <div class="showcase-slide" data-index="11">
+                    <img src="images/food/548337223_1333065905495532_5201002841793592728_n.jpg" alt="Grilled Fish">
+                    <div class="showcase-caption"><h4>Pescado Zarandeado</h4><p>Grilled whole fish</p></div>
+                </div>
+                <div class="showcase-slide" data-index="12">
+                    <img src="images/food/580519643_1384052927063496_2262643317349963493_n.jpg" alt="Shrimp Cocktail">
+                    <div class="showcase-caption"><h4>Coctel de Camarones</h4><p>Classic Mexican shrimp cocktail</p></div>
+                </div>
+                <div class="showcase-slide" data-index="13">
+                    <img src="images/food/556012872_1343675167767939_903849798110678253_n.jpg" alt="Aguachile">
+                    <div class="showcase-caption"><h4>Aguachile Verde</h4><p>Spicy lime-cured shrimp</p></div>
+                </div>
+                <div class="showcase-slide" data-index="14">
+                    <img src="images/food/585650259_1393019086166880_6013396160094203049_n.jpg" alt="Fajitas">
+                    <div class="showcase-caption"><h4>Fajitas Sizzling</h4><p>Hot off the grill</p></div>
+                </div>
+                <div class="showcase-slide" data-index="15">
+                    <img src="images/food/574577719_1376770704458385_4625040839337880495_n.jpg" alt="Enchiladas">
+                    <div class="showcase-caption"><h4>Enchiladas</h4><p>Smothered in rich sauce</p></div>
+                </div>
+                <div class="showcase-slide" data-index="16">
+                    <img src="images/food/587982655_1394816302653825_1840691449944890765_n.jpg" alt="Seafood Platter">
+                    <div class="showcase-caption"><h4>Torre de Mariscos</h4><p>Seafood tower extravaganza</p></div>
+                </div>
+                <div class="showcase-slide" data-index="17">
+                    <img src="images/food/593540309_1404764891658966_2828909070359846132_n.jpg" alt="Margarita">
+                    <div class="showcase-caption"><h4>Margaritas</h4><p>Handcrafted cocktails</p></div>
+                </div>
+                <div class="showcase-slide" data-index="18">
+                    <img src="images/food/547073488_1328795925922530_7290571355163273711_n.jpg" alt="Quesabirria">
+                    <div class="showcase-caption"><h4>Quesabirria</h4><p>Cheesy birria perfection</p></div>
+                </div>
+                <div class="showcase-slide" data-index="19">
+                    <img src="images/food/541249655_1318034223665367_301443601633354887_n.jpg" alt="Nachos">
+                    <div class="showcase-caption"><h4>Nachos Supremos</h4><p>Loaded with all the toppings</p></div>
+                </div>
+                <div class="showcase-progress"><div class="showcase-progress-bar" id="showcase-progress"></div></div>
+            </div>
+            <div class="showcase-controls">
+                <button class="showcase-btn prev" id="showcase-prev" aria-label="Previous">
+                    <svg viewBox="0 0 24 24"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+                </button>
+                <button class="showcase-btn next" id="showcase-next" aria-label="Next">
+                    <svg viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </button>
+            </div>
+        </div>
+        <div class="showcase-thumbnails" id="showcase-thumbs">
+            <div class="showcase-thumb active" data-index="0"><img src="images/food/532953912_1301940525274737_483710501257204837_n.jpg" alt="Thumb"></div>
+            <div class="showcase-thumb" data-index="1"><img src="images/food/552384690_1339546491514140_1337704905977443888_n.jpg" alt="Thumb"></div>
+            <div class="showcase-thumb" data-index="2"><img src="images/food/548305161_1333964278739028_3917558894532074547_n.jpg" alt="Thumb"></div>
+            <div class="showcase-thumb" data-index="3"><img src="images/food/576334405_1382407620561360_6648632343322302283_n.jpg" alt="Thumb"></div>
+            <div class="showcase-thumb" data-index="4"><img src="images/food/544569518_1323369653131824_2800771630620438842_n.jpg" alt="Thumb"></div>
+            <div class="showcase-thumb" data-index="5"><img src="images/food/569142228_1368637205271735_4676674214545042076_n.jpg" alt="Thumb"></div>
+            <div class="showcase-thumb" data-index="6"><img src="images/food/556686651_1348530603949062_6814197110277902358_n.jpg" alt="Thumb"></div>
+            <div class="showcase-thumb" data-index="7"><img src="images/food/577912198_1383214120480710_4606442802895735571_n.jpg" alt="Thumb"></div>
+            <div class="showcase-thumb" data-index="8"><img src="images/food/552933512_1340884751380314_4310325384255939445_n.jpg" alt="Thumb"></div>
+            <div class="showcase-thumb" data-index="9"><img src="images/food/583747095_1388716513263804_912517427864590820_n.jpg" alt="Thumb"></div>
+            <div class="showcase-thumb" data-index="10"><img src="images/food/536863708_1309459674522822_2171293173821515684_n.jpg" alt="Thumb"></div>
+            <div class="showcase-thumb" data-index="11"><img src="images/food/548337223_1333065905495532_5201002841793592728_n.jpg" alt="Thumb"></div>
+            <div class="showcase-thumb" data-index="12"><img src="images/food/580519643_1384052927063496_2262643317349963493_n.jpg" alt="Thumb"></div>
+            <div class="showcase-thumb" data-index="13"><img src="images/food/556012872_1343675167767939_903849798110678253_n.jpg" alt="Thumb"></div>
+            <div class="showcase-thumb" data-index="14"><img src="images/food/585650259_1393019086166880_6013396160094203049_n.jpg" alt="Thumb"></div>
+            <div class="showcase-thumb" data-index="15"><img src="images/food/574577719_1376770704458385_4625040839337880495_n.jpg" alt="Thumb"></div>
+            <div class="showcase-thumb" data-index="16"><img src="images/food/587982655_1394816302653825_1840691449944890765_n.jpg" alt="Thumb"></div>
+            <div class="showcase-thumb" data-index="17"><img src="images/food/593540309_1404764891658966_2828909070359846132_n.jpg" alt="Thumb"></div>
+            <div class="showcase-thumb" data-index="18"><img src="images/food/547073488_1328795925922530_7290571355163273711_n.jpg" alt="Thumb"></div>
+            <div class="showcase-thumb" data-index="19"><img src="images/food/541249655_1318034223665367_301443601633354887_n.jpg" alt="Thumb"></div>
+        </div>
+        <div class="showcase-info">
+            <div class="showcase-counter"><span id="showcase-current">1</span> / <span id="showcase-total">20</span></div>
+            <div class="showcase-autoplay" id="showcase-autoplay">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+                <span>Auto-play</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section class="menu" id="menu">
+        <div class="container">
+            <div class="section-header center">
+                <span class="section-badge" data-translate="menu_badge">Our Menu</span>
+                <h2 class="section-title"><span data-translate="menu_title">Explore Our</span> <span class="highlight" data-translate="menu_title_highlight">Flavors</span></h2>
+                <p class="section-desc" data-translate="menu_desc">A taste of authentic Mexican cuisine - from fresh seafood to sizzling classics</p>
+            </div>
+
+            <!-- Menu Categories -->
+            <div class="menu-categories">
+
+                <!-- Mariscos Category -->
+                <div class="menu-category">
+                    <div class="menu-category-header">
+                        <div class="menu-category-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2z"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><path d="M9 9h.01M15 9h.01"/></svg>
+                        </div>
+                        <div class="menu-category-info">
+                            <h3 data-translate="menu_mariscos">Mariscos</h3>
+                            <p data-translate="menu_mariscos_sub">Fresh Seafood</p>
+                        </div>
+                    </div>
+                    <div class="menu-category-items">
+                        <div class="menu-card">
+                            <div class="menu-card-content">
+                                <h4 data-translate="molcajete_title">Molcajete de Mariscos</h4>
+                                <p data-translate="molcajete_desc">Volcanic stone bowl with shrimp, octopus, fish & signature salsa</p>
+                            </div>
+                            <span class="menu-card-price">$32.95</span>
+                        </div>
+                        <div class="menu-card">
+                            <div class="menu-card-content">
+                                <h4 data-translate="diabla_title">Camarones a la Diabla</h4>
+                                <p data-translate="diabla_desc">Jumbo shrimp in fiery red chile sauce</p>
+                            </div>
+                            <span class="menu-card-price">$19.95</span>
+                        </div>
+                        <div class="menu-card">
+                            <div class="menu-card-content">
+                                <h4 data-translate="aguachile_title">Aguachile Verde</h4>
+                                <p data-translate="aguachile_desc">Raw shrimp cured in lime with serrano peppers</p>
+                            </div>
+                            <span class="menu-card-price">$18.95</span>
+                        </div>
+                        <div class="menu-card">
+                            <div class="menu-card-content">
+                                <h4 data-translate="ceviche_title">Ceviche de Camaron</h4>
+                                <p data-translate="ceviche_desc">Classic shrimp ceviche with avocado & lime</p>
+                            </div>
+                            <span class="menu-card-price">$16.95</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tacos Category -->
+                <div class="menu-category">
+                    <div class="menu-category-header">
+                        <div class="menu-category-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 18c0-2 2-3 4-3h8c2 0 4 1 4 3"/><path d="M4 18c-1 0-2-.5-2-1.5S3 15 4 15c2-5 6-9 8-9s6 4 8 9c1 0 2 .5 2 1.5s-1 1.5-2 1.5"/></svg>
+                        </div>
+                        <div class="menu-category-info">
+                            <h3 data-translate="menu_tacos">Tacos</h3>
+                            <p data-translate="menu_tacos_sub">Street Style Favorites</p>
+                        </div>
+                    </div>
+                    <div class="menu-category-items">
+                        <div class="menu-card">
+                            <div class="menu-card-content">
+                                <h4 data-translate="taco_camaron_title">Tacos de Camaron</h4>
+                                <p data-translate="taco_camaron_desc">Grilled shrimp with cabbage slaw & chipotle crema</p>
+                            </div>
+                            <span class="menu-card-price">$14.95</span>
+                        </div>
+                        <div class="menu-card">
+                            <div class="menu-card-content">
+                                <h4 data-translate="taco_asada_title">Tacos de Carne Asada</h4>
+                                <p data-translate="taco_asada_desc">Grilled steak with onion, cilantro & salsa verde</p>
+                            </div>
+                            <span class="menu-card-price">$14.95</span>
+                        </div>
+                        <div class="menu-card">
+                            <div class="menu-card-content">
+                                <h4 data-translate="taco_pastor_title">Tacos al Pastor</h4>
+                                <p data-translate="taco_pastor_desc">Marinated pork with pineapple & cilantro</p>
+                            </div>
+                            <span class="menu-card-price">$13.95</span>
+                        </div>
+                        <div class="menu-card">
+                            <div class="menu-card-content">
+                                <h4 data-translate="taco_birria_title">Tacos de Birria</h4>
+                                <p data-translate="taco_birria_desc">Crispy birria tacos with consommé for dipping</p>
+                            </div>
+                            <span class="menu-card-price">$15.95</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Platos Fuertes Category -->
+                <div class="menu-category">
+                    <div class="menu-category-header">
+                        <div class="menu-category-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><ellipse cx="12" cy="14" rx="9" ry="5"/><path d="M3 14v1c0 2.8 4 5 9 5s9-2.2 9-5v-1"/><path d="M12 4v4M8 6l4-2 4 2"/></svg>
+                        </div>
+                        <div class="menu-category-info">
+                            <h3 data-translate="menu_platos">Platos Fuertes</h3>
+                            <p data-translate="menu_platos_sub">Main Courses</p>
+                        </div>
+                    </div>
+                    <div class="menu-category-items">
+                        <div class="menu-card">
+                            <div class="menu-card-content">
+                                <h4 data-translate="fajitas_title">Fajitas Mixtas</h4>
+                                <p data-translate="fajitas_desc">Sizzling steak, chicken & shrimp with peppers</p>
+                            </div>
+                            <span class="menu-card-price">$22.95</span>
+                        </div>
+                        <div class="menu-card">
+                            <div class="menu-card-content">
+                                <h4 data-translate="carne_title">Carne Asada</h4>
+                                <p data-translate="carne_desc">Grilled steak with rice, beans & guacamole</p>
+                            </div>
+                            <span class="menu-card-price">$18.95</span>
+                        </div>
+                        <div class="menu-card">
+                            <div class="menu-card-content">
+                                <h4 data-translate="chile_verde_title">Chile Verde</h4>
+                                <p data-translate="chile_verde_desc">Tender pork in green tomatillo sauce</p>
+                            </div>
+                            <span class="menu-card-price">$16.95</span>
+                        </div>
+                        <div class="menu-card">
+                            <div class="menu-card-content">
+                                <h4 data-translate="enchiladas_title">Enchiladas Verdes</h4>
+                                <p data-translate="enchiladas_desc">Chicken enchiladas with tomatillo sauce & crema</p>
+                            </div>
+                            <span class="menu-card-price">$15.95</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Antojitos & Bebidas Category -->
+                <div class="menu-category">
+                    <div class="menu-category-header">
+                        <div class="menu-category-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M8 2v4M16 2v4M3 10h18"/><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M8 14h.01M12 14h.01M16 14h.01M8 18h.01M12 18h.01"/></svg>
+                        </div>
+                        <div class="menu-category-info">
+                            <h3 data-translate="menu_antojitos">Antojitos & Bebidas</h3>
+                            <p data-translate="menu_antojitos_sub">Starters & Drinks</p>
+                        </div>
+                    </div>
+                    <div class="menu-category-items">
+                        <div class="menu-card">
+                            <div class="menu-card-content">
+                                <h4 data-translate="nachos_title">Nachos Supreme</h4>
+                                <p data-translate="nachos_desc">Loaded with beef, cheese, jalapeños & sour cream</p>
+                            </div>
+                            <span class="menu-card-price">$14.95</span>
+                        </div>
+                        <div class="menu-card">
+                            <div class="menu-card-content">
+                                <h4 data-translate="queso_title">Queso Fundido</h4>
+                                <p data-translate="queso_desc">Melted cheese with chorizo & warm tortillas</p>
+                            </div>
+                            <span class="menu-card-price">$12.95</span>
+                        </div>
+                        <div class="menu-card">
+                            <div class="menu-card-content">
+                                <h4 data-translate="margarita_title">Margarita Clásica</h4>
+                                <p data-translate="margarita_desc">Premium tequila, triple sec & fresh lime</p>
+                            </div>
+                            <span class="menu-card-price">$10.95</span>
+                        </div>
+                        <div class="menu-card">
+                            <div class="menu-card-content">
+                                <h4 data-translate="michelada_title">Michelada</h4>
+                                <p data-translate="michelada_desc">Mexican beer with lime, Clamato & Tajín rim</p>
+                            </div>
+                            <span class="menu-card-price">$9.95</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="menu-cta">
+            <p data-translate="menu_cta">Full menu available in-house with daily specials</p>
+            <a href="tel:+12062443443" class="btn btn-outline" data-translate="menu_call">Call to Order: (206) 244-3443</a>
+        </div>
+    </section>
+
+    <!-- Specials Section -->
+    <section class="specials" id="specials">
+        <div class="container">
+            <div class="section-header center">
+                <span class="section-badge" data-translate="specials_badge">Weekly Events</span>
+                <h2 class="section-title"><span data-translate="specials_title">Specials &</span> <span class="highlight" data-translate="specials_title_highlight">Entertainment</span></h2>
+                <p class="section-desc" data-translate="specials_desc">More than just great food - experience the vibrant atmosphere of El Habanero</p>
+            </div>
+            <div class="specials-grid">
+                <div class="special-card featured">
+                    <div class="special-icon">&#127926;</div>
+                    <div class="special-badge" data-translate="specials_live_when">Every Weekend</div>
+                    <h3 data-translate="specials_live_title">Live Music Nights</h3>
+                    <p data-translate="specials_live_desc">Experience authentic Mexican music every Thursday through Sunday evening. Dance, sing, and celebrate with us!</p>
+                    <span class="special-time" data-translate="specials_live_time">Thu-Sun: 8PM - 2AM</span>
+                </div>
+                <div class="special-card">
+                    <div class="special-icon">&#127908;</div>
+                    <div class="special-badge" data-translate="specials_karaoke_when">Fridays & Saturdays</div>
+                    <h3 data-translate="specials_karaoke_title">Karaoke Night</h3>
+                    <p data-translate="specials_karaoke_desc">Take the stage and show off your vocal talents! Spanish and English songs available.</p>
+                    <span class="special-time">10PM - 2AM</span>
+                </div>
+                <div class="special-card">
+                    <div class="special-icon">&#127867;</div>
+                    <div class="special-badge" data-translate="specials_happy_when">Daily 3-6PM</div>
+                    <h3 data-translate="specials_happy_title">Happy Hour</h3>
+                    <p data-translate="specials_happy_desc">Discounted drinks and appetizers to kick off your evening. $2 off all drinks & 25% off antojitos!</p>
+                    <span class="special-time" data-translate="specials_happy_time">Mon-Fri: 3PM - 6PM</span>
+                </div>
+                <div class="special-card">
+                    <div class="special-icon">&#129424;</div>
+                    <div class="special-badge" data-translate="specials_taco_when">Tuesdays</div>
+                    <h3 data-translate="specials_taco_title">Taco Tuesday</h3>
+                    <p data-translate="specials_taco_desc">All tacos $2.50 each! Mix and match your favorites from our extensive taco selection.</p>
+                    <span class="special-time" data-translate="specials_taco_time">All Day</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section - Guest Photos -->
+    <section class="gallery" id="gallery">
+        <div class="container">
+            <div class="section-header center">
+                <span class="section-badge" data-translate="gallery_badge">Guest Gallery</span>
+                <h2 class="section-title"><span data-translate="gallery_title">Shared by</span> <span class="highlight" data-translate="gallery_title_highlight">Our Guests</span></h2>
+                <p class="section-desc" data-translate="gallery_desc">Real moments captured by our customers - swipe to explore</p>
+            </div>
+        </div>
+
+        <!-- Guest Gallery Carousel -->
+        <div class="guest-gallery-wrapper">
+            <div class="guest-gallery-carousel" id="guest-gallery-track">
+                <div class="guest-card" onclick="openLightbox(0)">
+                    <div class="guest-card-img"><img src="images/food/image.jpg" alt="Guest photo" loading="lazy"></div>
+                    <div class="guest-card-overlay"><span>View</span></div>
+                </div>
+                <div class="guest-card" onclick="openLightbox(1)">
+                    <div class="guest-card-img"><img src="images/food/2.jpg" alt="Mussels in sauce" loading="lazy"></div>
+                    <div class="guest-card-overlay"><span>View</span></div>
+                </div>
+                <div class="guest-card" onclick="openLightbox(2)">
+                    <div class="guest-card-img"><img src="images/food/3.jpg" alt="Guest photo" loading="lazy"></div>
+                    <div class="guest-card-overlay"><span>View</span></div>
+                </div>
+                <div class="guest-card" onclick="openLightbox(3)">
+                    <div class="guest-card-img"><img src="images/food/4.jpg" alt="Guest photo" loading="lazy"></div>
+                    <div class="guest-card-overlay"><span>View</span></div>
+                </div>
+                <div class="guest-card" onclick="openLightbox(4)">
+                    <div class="guest-card-img"><img src="images/food/5.jpg" alt="Guest photo" loading="lazy"></div>
+                    <div class="guest-card-overlay"><span>View</span></div>
+                </div>
+                <div class="guest-card" onclick="openLightbox(5)">
+                    <div class="guest-card-img"><img src="images/food/6.jpg" alt="Guest photo" loading="lazy"></div>
+                    <div class="guest-card-overlay"><span>View</span></div>
+                </div>
+                <div class="guest-card" onclick="openLightbox(6)">
+                    <div class="guest-card-img"><img src="images/food/7.jpg" alt="Guest photo" loading="lazy"></div>
+                    <div class="guest-card-overlay"><span>View</span></div>
+                </div>
+                <div class="guest-card" onclick="openLightbox(7)">
+                    <div class="guest-card-img"><img src="images/food/8.jpg" alt="Guest photo" loading="lazy"></div>
+                    <div class="guest-card-overlay"><span>View</span></div>
+                </div>
+                <div class="guest-card" onclick="openLightbox(8)">
+                    <div class="guest-card-img"><img src="images/food/9.jpg" alt="Guest photo" loading="lazy"></div>
+                    <div class="guest-card-overlay"><span>View</span></div>
+                </div>
+                <div class="guest-card" onclick="openLightbox(9)">
+                    <div class="guest-card-img"><img src="images/food/10.jpg" alt="Molcajete salsa" loading="lazy"></div>
+                    <div class="guest-card-overlay"><span>View</span></div>
+                </div>
+                <div class="guest-card" onclick="openLightbox(10)">
+                    <div class="guest-card-img"><img src="images/food/11.jpg" alt="Guest photo" loading="lazy"></div>
+                    <div class="guest-card-overlay"><span>View</span></div>
+                </div>
+                <div class="guest-card" onclick="openLightbox(11)">
+                    <div class="guest-card-img"><img src="images/food/12.jpg" alt="Guest photo" loading="lazy"></div>
+                    <div class="guest-card-overlay"><span>View</span></div>
+                </div>
+                <div class="guest-card" onclick="openLightbox(12)">
+                    <div class="guest-card-img"><img src="images/food/13.jpg" alt="Guest photo" loading="lazy"></div>
+                    <div class="guest-card-overlay"><span>View</span></div>
+                </div>
+                <div class="guest-card" onclick="openLightbox(13)">
+                    <div class="guest-card-img"><img src="images/food/14.jpg" alt="Guest photo" loading="lazy"></div>
+                    <div class="guest-card-overlay"><span>View</span></div>
+                </div>
+                <div class="guest-card" onclick="openLightbox(14)">
+                    <div class="guest-card-img"><img src="images/food/15.jpg" alt="Guest photo" loading="lazy"></div>
+                    <div class="guest-card-overlay"><span>View</span></div>
+                </div>
+                <div class="guest-card" onclick="openLightbox(15)">
+                    <div class="guest-card-img"><img src="images/food/16.jpg" alt="Guest photo" loading="lazy"></div>
+                    <div class="guest-card-overlay"><span>View</span></div>
+                </div>
+                <div class="guest-card" onclick="openLightbox(16)">
+                    <div class="guest-card-img"><img src="images/food/19.jpg" alt="Guest photo" loading="lazy"></div>
+                    <div class="guest-card-overlay"><span>View</span></div>
+                </div>
+                <div class="guest-card" onclick="openLightbox(17)">
+                    <div class="guest-card-img"><img src="images/food/20.jpg" alt="Guest photo" loading="lazy"></div>
+                    <div class="guest-card-overlay"><span>View</span></div>
+                </div>
+                <div class="guest-card" onclick="openLightbox(18)">
+                    <div class="guest-card-img"><img src="images/food/21.jpg" alt="Guest photo" loading="lazy"></div>
+                    <div class="guest-card-overlay"><span>View</span></div>
+                </div>
+                <div class="guest-card" onclick="openLightbox(19)">
+                    <div class="guest-card-img"><img src="images/food/22.jpg" alt="Guest photo" loading="lazy"></div>
+                    <div class="guest-card-overlay"><span>View</span></div>
+                </div>
+                <div class="guest-card" onclick="openLightbox(20)">
+                    <div class="guest-card-img"><img src="images/food/23.jpg" alt="Guest photo" loading="lazy"></div>
+                    <div class="guest-card-overlay"><span>View</span></div>
+                </div>
+                <div class="guest-card" onclick="openLightbox(21)">
+                    <div class="guest-card-img"><img src="images/food/24.jpg" alt="Guest photo" loading="lazy"></div>
+                    <div class="guest-card-overlay"><span>View</span></div>
+                </div>
+                <div class="guest-card" onclick="openLightbox(22)">
+                    <div class="guest-card-img"><img src="images/food/25.jpg" alt="Fresh Oysters" loading="lazy"></div>
+                    <div class="guest-card-overlay"><span>View</span></div>
+                </div>
+                <div class="guest-card" onclick="openLightbox(23)">
+                    <div class="guest-card-img"><img src="images/food/26.jpg" alt="Guest photo" loading="lazy"></div>
+                    <div class="guest-card-overlay"><span>View</span></div>
+                </div>
+                <div class="guest-card" onclick="openLightbox(24)">
+                    <div class="guest-card-img"><img src="images/food/27.jpg" alt="Guest photo" loading="lazy"></div>
+                    <div class="guest-card-overlay"><span>View</span></div>
+                </div>
+                <div class="guest-card" onclick="openLightbox(25)">
+                    <div class="guest-card-img"><img src="images/food/28.jpg" alt="Guest photo" loading="lazy"></div>
+                    <div class="guest-card-overlay"><span>View</span></div>
+                </div>
+                <div class="guest-card" onclick="openLightbox(26)">
+                    <div class="guest-card-img"><img src="images/food/29.jpg" alt="Guest photo" loading="lazy"></div>
+                    <div class="guest-card-overlay"><span>View</span></div>
+                </div>
+                <div class="guest-card" onclick="openLightbox(27)">
+                    <div class="guest-card-img"><img src="images/food/31.jpg" alt="Guest photo" loading="lazy"></div>
+                    <div class="guest-card-overlay"><span>View</span></div>
+                </div>
+                <div class="guest-card" onclick="openLightbox(28)">
+                    <div class="guest-card-img"><img src="images/food/32.jpg" alt="Guest photo" loading="lazy"></div>
+                    <div class="guest-card-overlay"><span>View</span></div>
+                </div>
+                <div class="guest-card" onclick="openLightbox(29)">
+                    <div class="guest-card-img"><img src="images/food/33.jpg" alt="Guest photo" loading="lazy"></div>
+                    <div class="guest-card-overlay"><span>View</span></div>
+                </div>
+                <div class="guest-card" onclick="openLightbox(30)">
+                    <div class="guest-card-img"><img src="images/food/34.jpg" alt="Guest photo" loading="lazy"></div>
+                    <div class="guest-card-overlay"><span>View</span></div>
+                </div>
+                <div class="guest-card" onclick="openLightbox(31)">
+                    <div class="guest-card-img"><img src="images/food/35.jpg" alt="Guest photo" loading="lazy"></div>
+                    <div class="guest-card-overlay"><span>View</span></div>
+                </div>
+                <div class="guest-card" onclick="openLightbox(32)">
+                    <div class="guest-card-img"><img src="images/food/36.jpg" alt="Guest photo" loading="lazy"></div>
+                    <div class="guest-card-overlay"><span>View</span></div>
+                </div>
+                <div class="guest-card" onclick="openLightbox(33)">
+                    <div class="guest-card-img"><img src="images/food/37.jpg" alt="Guest photo" loading="lazy"></div>
+                    <div class="guest-card-overlay"><span>View</span></div>
+                </div>
+                <div class="guest-card" onclick="openLightbox(34)">
+                    <div class="guest-card-img"><img src="images/food/38.jpg" alt="Guest photo" loading="lazy"></div>
+                    <div class="guest-card-overlay"><span>View</span></div>
+                </div>
+                <div class="guest-card" onclick="openLightbox(35)">
+                    <div class="guest-card-img"><img src="images/food/39.jpg" alt="Guest photo" loading="lazy"></div>
+                    <div class="guest-card-overlay"><span>View</span></div>
+                </div>
+                <div class="guest-card" onclick="openLightbox(36)">
+                    <div class="guest-card-img"><img src="images/food/40.jpg" alt="Guest photo" loading="lazy"></div>
+                    <div class="guest-card-overlay"><span>View</span></div>
+                </div>
+                <div class="guest-card" onclick="openLightbox(37)">
+                    <div class="guest-card-img"><img src="images/food/42.jpg" alt="Guest photo" loading="lazy"></div>
+                    <div class="guest-card-overlay"><span>View</span></div>
+                </div>
+            </div>
+            <button class="guest-gallery-btn prev" id="guest-gallery-prev" aria-label="Previous">
+                <svg viewBox="0 0 24 24"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+            </button>
+            <button class="guest-gallery-btn next" id="guest-gallery-next" aria-label="Next">
+                <svg viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </button>
+        </div>
+
+        <div class="guest-gallery-nav">
+            <div class="guest-gallery-counter">
+                <span id="guest-gallery-current">1</span> - <span id="guest-gallery-visible">4</span> of <span id="guest-gallery-total">38</span> photos
+            </div>
+            <div class="guest-gallery-dots" id="guest-gallery-dots"></div>
+        </div>
+
+        <div class="gallery-cta">
+            <p data-translate="gallery_cta">Follow us on Instagram for more delicious content!</p>
+            <a href="https://instagram.com/el_habanero_de_burien" target="_blank" class="btn btn-outline">
+                <svg viewBox="0 0 24 24" class="instagram-icon"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+                <span>@el_habanero_de_burien</span>
+            </a>
+        </div>
+    </section>
+
+    <!-- Lightbox Modal -->
+    <div class="lightbox" id="lightbox">
+        <button class="lightbox-close" onclick="closeLightbox()" aria-label="Close">&times;</button>
+        <button class="lightbox-prev" onclick="changeLightboxImage(-1)" aria-label="Previous">&#10094;</button>
+        <div class="lightbox-content">
+            <img id="lightbox-img" src="" alt="Gallery image">
+            <div class="lightbox-counter"><span id="lightbox-current">1</span> / <span id="lightbox-total">38</span></div>
+        </div>
+        <button class="lightbox-next" onclick="changeLightboxImage(1)" aria-label="Next">&#10095;</button>
+    </div>
+
+    <!-- Reviews Section -->
+    <section class="reviews" id="reviews">
+        <div class="container">
+            <div class="section-header center">
+                <span class="section-badge" data-translate="reviews_badge">Testimonials</span>
+                <h2 class="section-title"><span data-translate="reviews_title">What Our</span> <span class="highlight" data-translate="reviews_title_highlight">Guests Say</span></h2>
+                <div class="rating-summary">
+                    <div class="stars">
+                        <span class="star filled">&#9733;</span>
+                        <span class="star filled">&#9733;</span>
+                        <span class="star filled">&#9733;</span>
+                        <span class="star filled">&#9733;</span>
+                        <span class="star half">&#9733;</span>
+                    </div>
+                    <span class="rating-text" data-translate="reviews_rating">4.0 Average Rating</span>
+                    <span class="rating-count" data-translate="reviews_count">Based on 1,400+ reviews</span>
+                </div>
+            </div>
+            <div class="reviews-carousel">
+                <div class="reviews-track" id="reviews-track">
+                    <!-- Review 1: Gabriella DL -->
+                    <div class="review-card">
+                        <div class="review-header">
+                            <div class="reviewer-avatar">GD</div>
+                            <div class="reviewer-info">
+                                <h4>Gabriella DL</h4>
+                                <span class="review-source">Google Local Guide</span>
+                            </div>
+                            <div class="review-stars">
+                                <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span>
+                            </div>
+                        </div>
+                        <p class="review-text">"The service and food was amazing! It's our 3rd time at this location and it definitely doesn't disappoint. I got a mojarra frita - besides being huge it was delicious! Also ordered a shrimp cocktail that had lots of shrimp and flavor."</p>
+                        <span class="review-date">11 months ago &bull; Dinner &bull; $50-100</span>
+                    </div>
+                    <!-- Review 2: Krystal Smith -->
+                    <div class="review-card">
+                        <div class="review-header">
+                            <div class="reviewer-avatar">KS</div>
+                            <div class="reviewer-info">
+                                <h4>Krystal Smith</h4>
+                                <span class="review-source">Google Local Guide</span>
+                            </div>
+                            <div class="review-stars">
+                                <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span>
+                            </div>
+                        </div>
+                        <p class="review-text">"WOW! Hands down, best experience! Our server was the best! From her service skills to her epic playlist over the speakers! Really amazing food as well, best oyster shooters and I mean look at the portion size! Definitely recommend!"</p>
+                        <span class="review-date">2 years ago &bull; $20-30</span>
+                    </div>
+                    <!-- Review 3: Michael Hoover -->
+                    <div class="review-card">
+                        <div class="review-header">
+                            <div class="reviewer-avatar">MH</div>
+                            <div class="reviewer-info">
+                                <h4>Michael Hoover</h4>
+                                <span class="review-source">Google Local Guide</span>
+                            </div>
+                            <div class="review-stars">
+                                <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span>
+                            </div>
+                        </div>
+                        <p class="review-text">"Love the food here. Most people rave about the seafood. I love the Chile Verde. Everything has a unique flavor, not your typical American Mexican food. Great atmosphere. I'd gladly return to El Habanero Bar and Grill."</p>
+                        <span class="review-date">2 years ago &bull; Dinner</span>
+                    </div>
+                    <!-- Review 4: Christian Pita -->
+                    <div class="review-card">
+                        <div class="review-header">
+                            <div class="reviewer-avatar">CP</div>
+                            <div class="reviewer-info">
+                                <h4>Christian Pita</h4>
+                                <span class="review-source">Google Local Guide</span>
+                            </div>
+                            <div class="review-stars">
+                                <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span>
+                            </div>
+                        </div>
+                        <p class="review-text">"Oh Man! Amazing Food, if you like seafood and want to eat 'Mexican Seafood' this place is just Delicious! The specialty here are Mexican Seafood Dishes."</p>
+                        <span class="review-date">3 years ago &bull; Dinner &bull; $20-30</span>
+                    </div>
+                    <!-- Review 5: Anthony B -->
+                    <div class="review-card">
+                        <div class="review-header">
+                            <div class="reviewer-avatar">AB</div>
+                            <div class="reviewer-info">
+                                <h4>Anthony B</h4>
+                                <span class="review-source">Google Local Guide</span>
+                            </div>
+                            <div class="review-stars">
+                                <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span>
+                            </div>
+                        </div>
+                        <p class="review-text">"I strongly recommend El Habanero for between noon to 4 pm! We visited on a weekday, around mid-afternoon, before the club scene starts late evenings. As a Mexican restaurant, my expectations were far exceeded."</p>
+                        <span class="review-date">2 months ago</span>
+                    </div>
+                    <!-- Review 6: Dawn Holts -->
+                    <div class="review-card">
+                        <div class="review-header">
+                            <div class="reviewer-avatar">DH</div>
+                            <div class="reviewer-info">
+                                <h4>Dawn Holts</h4>
+                                <span class="review-source">Google Local Guide</span>
+                            </div>
+                            <div class="review-stars">
+                                <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span>
+                            </div>
+                        </div>
+                        <p class="review-text">"El Habanero has a casual atmosphere and serves up some high quality food and drinks! Soooo good and highly recommended."</p>
+                        <span class="review-date">4 months ago &bull; $20-30</span>
+                    </div>
+                    <!-- Review 7: Kastimizillion -->
+                    <div class="review-card">
+                        <div class="review-header">
+                            <div class="reviewer-avatar">K</div>
+                            <div class="reviewer-info">
+                                <h4>Kastimizillion</h4>
+                                <span class="review-source">Google Local Guide</span>
+                            </div>
+                            <div class="review-stars">
+                                <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span>
+                            </div>
+                        </div>
+                        <p class="review-text">"It was a busy Friday night, with karaoke, loud music and amazing food. I only had a few things, but I was very impressed with the menu, it's probably the most authentic seafood I've had around here."</p>
+                        <span class="review-date">2 years ago</span>
+                    </div>
+                    <!-- Review 8: Dave Tagge -->
+                    <div class="review-card">
+                        <div class="review-header">
+                            <div class="reviewer-avatar">DT</div>
+                            <div class="reviewer-info">
+                                <h4>Dave Tagge</h4>
+                                <span class="review-source">Google Local Guide</span>
+                            </div>
+                            <div class="review-stars">
+                                <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span>
+                            </div>
+                        </div>
+                        <p class="review-text">"Absolutely delicious seafood in a festive atmosphere!"</p>
+                        <span class="review-date">3 years ago &bull; Dinner &bull; $30-50</span>
+                    </div>
+                    <!-- Review 9: L.C. -->
+                    <div class="review-card">
+                        <div class="review-header">
+                            <div class="reviewer-avatar">LC</div>
+                            <div class="reviewer-info">
+                                <h4>L.C.</h4>
+                                <span class="review-source">Google Local Guide</span>
+                            </div>
+                            <div class="review-stars">
+                                <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span>
+                            </div>
+                        </div>
+                        <p class="review-text">"Live music, great service, cold beer, delicious food!"</p>
+                        <span class="review-date">1 year ago &bull; Dinner &bull; $10-20</span>
+                    </div>
+                    <!-- Review 10: Andrew M -->
+                    <div class="review-card">
+                        <div class="review-header">
+                            <div class="reviewer-avatar">AM</div>
+                            <div class="reviewer-info">
+                                <h4>Andrew M</h4>
+                                <span class="review-source">Google Local Guide</span>
+                            </div>
+                            <div class="review-stars">
+                                <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span>
+                            </div>
+                        </div>
+                        <p class="review-text">"I ate some delicious ceviche and a bowl of birria soup. I have a great time every time I show up plus a live band was going to start. I absolutely love the different choices of seafood and menu options!"</p>
+                        <span class="review-date">3 years ago &bull; Dinner &bull; $10-20</span>
+                    </div>
+                    <!-- Review 11: krazy 8 -->
+                    <div class="review-card">
+                        <div class="review-header">
+                            <div class="reviewer-avatar">K8</div>
+                            <div class="reviewer-info">
+                                <h4>krazy 8</h4>
+                                <span class="review-source">Google Local Guide</span>
+                            </div>
+                            <div class="review-stars">
+                                <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span>
+                            </div>
+                        </div>
+                        <p class="review-text">"Good scenery, good food (big portions) worth the price... kind of a restaurant/club/karaoke.. good service!"</p>
+                        <span class="review-date">4 years ago</span>
+                    </div>
+                    <!-- Review 12: Chris Compton -->
+                    <div class="review-card">
+                        <div class="review-header">
+                            <div class="reviewer-avatar">CC</div>
+                            <div class="reviewer-info">
+                                <h4>Chris Compton</h4>
+                                <span class="review-source">Google Local Guide</span>
+                            </div>
+                            <div class="review-stars">
+                                <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span>
+                            </div>
+                        </div>
+                        <p class="review-text">"Was looking for a place to grab some food and a beer. They got me right in and the food came out promptly and was super tasty! Friendly service!"</p>
+                        <span class="review-date">6 years ago</span>
+                    </div>
+                    <!-- Review 13: Joryu Dantes -->
+                    <div class="review-card">
+                        <div class="review-header">
+                            <div class="reviewer-avatar">JD</div>
+                            <div class="reviewer-info">
+                                <h4>Joryu Dantes</h4>
+                                <span class="review-source">Google Local Guide</span>
+                            </div>
+                            <div class="review-stars">
+                                <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span>
+                            </div>
+                        </div>
+                        <p class="review-text">"Good place if you like seafood. The food is great and the service is good!"</p>
+                        <span class="review-date">1 year ago</span>
+                    </div>
+                    <!-- Review 14: Holly SoriaNO -->
+                    <div class="review-card">
+                        <div class="review-header">
+                            <div class="reviewer-avatar">HS</div>
+                            <div class="reviewer-info">
+                                <h4>Holly S.</h4>
+                                <span class="review-source">Google Review</span>
+                            </div>
+                            <div class="review-stars">
+                                <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9734;</span>
+                            </div>
+                        </div>
+                        <p class="review-text">"Good food at reasonable prices. The sopes were really good with the carne asada one being my favorite. I also had a shrimp cocktail - very generous with the shrimp!"</p>
+                        <span class="review-date">4 years ago</span>
+                    </div>
+                    <!-- Review 15: Arnita Wilson -->
+                    <div class="review-card">
+                        <div class="review-header">
+                            <div class="reviewer-avatar">AW</div>
+                            <div class="reviewer-info">
+                                <h4>Arnita Wilson</h4>
+                                <span class="review-source">Google Local Guide</span>
+                            </div>
+                            <div class="review-stars">
+                                <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span>
+                            </div>
+                        </div>
+                        <p class="review-text">"Friendly staff, great service, not a long wait!"</p>
+                        <span class="review-date">2 months ago &bull; $10-20</span>
+                    </div>
+                </div>
+                <div class="reviews-nav">
+                    <button class="review-nav-btn prev" id="review-prev" aria-label="Previous review">
+                        <svg viewBox="0 0 24 24"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+                    </button>
+                    <div class="review-counter"><span id="review-current">1</span> / <span id="review-total">15</span></div>
+                    <button class="review-nav-btn next" id="review-next" aria-label="Next review">
+                        <svg viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                    </button>
+                </div>
+            </div>
+            <div class="reviews-cta">
+                <a href="https://www.google.com/search?q=El+Habanero+Bar+%26+Grill+Burien+reviews" target="_blank" class="btn btn-outline" data-translate="reviews_read_more">Read More Reviews</a>
+                <a href="https://www.yelp.com/biz/el-habanero-bar-and-grill-burien" target="_blank" class="btn btn-outline" data-translate="reviews_leave">Leave a Review</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reservation Section -->
+    <section class="reservations" id="reservations">
+        <div class="container">
+            <div class="reservation-wrapper">
+                <div class="reservation-info">
+                    <span class="section-badge" data-translate="reserve_badge">Book Your Table</span>
+                    <h2 class="section-title"><span data-translate="reserve_title">Make a</span> <span class="highlight" data-translate="reserve_title_highlight">Reservation</span></h2>
+                    <p data-translate="reserve_desc">Join us for an unforgettable dining experience. Whether it's a romantic dinner, family celebration, or night out with friends, we're ready to serve you.</p>
+                    <div class="res-features">
+                        <div class="res-feature">
+                            <span class="res-icon">&#128101;</span>
+                            <span data-translate="reserve_groups">Groups Welcome</span>
+                        </div>
+                        <div class="res-feature">
+                            <span class="res-icon">&#127881;</span>
+                            <span data-translate="reserve_private">Private Events</span>
+                        </div>
+                        <div class="res-feature">
+                            <span class="res-icon">&#127926;</span>
+                            <span data-translate="reserve_entertainment">Live Entertainment</span>
+                        </div>
+                    </div>
+                    <div class="quick-contact">
+                        <p data-translate="reserve_call_info">For large parties or special events, please call us directly:</p>
+                        <a href="tel:+12062443443" class="phone-link">
+                            <span class="phone-icon">&#128222;</span>
+                            (206) 244-3443
+                        </a>
+                    </div>
+                </div>
+                <div class="reservation-form-wrapper">
+                    <form class="reservation-form" id="reservation-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="res-name" data-translate="reserve_name">Full Name</label>
+                                <input type="text" id="res-name" name="name" required placeholder="Your name" data-translate-placeholder="reserve_name_placeholder">
+                            </div>
+                            <div class="form-group">
+                                <label for="res-phone" data-translate="reserve_phone">Phone Number</label>
+                                <input type="tel" id="res-phone" name="phone" required placeholder="(123) 456-7890">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="res-date" data-translate="reserve_date">Date</label>
+                                <input type="date" id="res-date" name="date" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="res-time" data-translate="reserve_time">Time</label>
+                                <select id="res-time" name="time" required>
+                                    <option value="" data-translate="reserve_select_time">Select time</option>
+                                    <option value="10:00">10:00 AM</option>
+                                    <option value="11:00">11:00 AM</option>
+                                    <option value="12:00">12:00 PM</option>
+                                    <option value="13:00">1:00 PM</option>
+                                    <option value="14:00">2:00 PM</option>
+                                    <option value="15:00">3:00 PM</option>
+                                    <option value="16:00">4:00 PM</option>
+                                    <option value="17:00">5:00 PM</option>
+                                    <option value="18:00">6:00 PM</option>
+                                    <option value="19:00">7:00 PM</option>
+                                    <option value="20:00">8:00 PM</option>
+                                    <option value="21:00">9:00 PM</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="res-guests" data-translate="reserve_guests">Number of Guests</label>
+                                <select id="res-guests" name="guests" required>
+                                    <option value="" data-translate="reserve_select_guests">Select guests</option>
+                                    <option value="1" data-translate="reserve_guest_1">1 Guest</option>
+                                    <option value="2" data-translate="reserve_guest_2">2 Guests</option>
+                                    <option value="3" data-translate="reserve_guest_3">3 Guests</option>
+                                    <option value="4" data-translate="reserve_guest_4">4 Guests</option>
+                                    <option value="5" data-translate="reserve_guest_5">5 Guests</option>
+                                    <option value="6" data-translate="reserve_guest_6">6 Guests</option>
+                                    <option value="7" data-translate="reserve_guest_7">7 Guests</option>
+                                    <option value="8" data-translate="reserve_guest_8">8+ Guests</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="res-occasion" data-translate="reserve_occasion">Occasion (Optional)</label>
+                                <select id="res-occasion" name="occasion">
+                                    <option value="" data-translate="reserve_select_occasion">Select occasion</option>
+                                    <option value="birthday" data-translate="reserve_occasion_birthday">Birthday</option>
+                                    <option value="anniversary" data-translate="reserve_occasion_anniversary">Anniversary</option>
+                                    <option value="business" data-translate="reserve_occasion_business">Business</option>
+                                    <option value="date" data-translate="reserve_occasion_date">Date Night</option>
+                                    <option value="other" data-translate="reserve_occasion_other">Other</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group full-width">
+                            <label for="res-notes" data-translate="reserve_requests">Special Requests</label>
+                            <textarea id="res-notes" name="notes" rows="3" placeholder="Any dietary restrictions, accessibility needs, or special requests?" data-translate-placeholder="reserve_requests_placeholder"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">
+                            <span data-translate="reserve_submit">Request Reservation</span>
+                            <svg class="btn-arrow" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                        </button>
+                        <p class="form-note" data-translate="reserve_note">We'll confirm your reservation via phone within 24 hours.</p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <span class="section-badge" data-translate="contact_badge">Get in Touch</span>
+                    <h2 class="section-title"><span data-translate="contact_title">Visit</span> <span class="highlight">El Habanero</span></h2>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                            </div>
+                            <div class="contact-text">
+                                <h4 data-translate="contact_address_title">Address</h4>
+                                <p>14830 1st Ave S<br>Burien, WA 98168</p>
+                                <a href="https://maps.google.com/?q=14830+1st+Ave+S+Burien+WA+98168" target="_blank" class="contact-link" data-translate="contact_directions">Get Directions</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                            </div>
+                            <div class="contact-text">
+                                <h4 data-translate="contact_phone_title">Phone</h4>
+                                <a href="tel:+12062443443" class="phone">(206) 244-3443</a>
+                                <p data-translate="contact_phone_desc">Call for takeout or reservations</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                            </div>
+                            <div class="contact-text">
+                                <h4 data-translate="contact_hours_title">Hours</h4>
+                                <div class="hours-grid">
+                                    <span class="day" data-translate="contact_hours_mw_label">Mon - Wed</span>
+                                    <span class="time">10:00 AM - 10:00 PM</span>
+                                    <span class="day" data-translate="contact_hours_ts_label">Thu - Sun</span>
+                                    <span class="time">10:00 AM - 2:00 AM</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/elhabanerodeburien" target="_blank" class="social-link" aria-label="Facebook">
+                            <svg viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+                        </a>
+                        <a href="https://instagram.com/el_habanero_de_burien" target="_blank" class="social-link" aria-label="Instagram">
+                            <svg viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="map-wrapper">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2696.8!2d-122.33!3d47.47!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDfCsDI4JzEyLjAiTiAxMjLCsDE5JzQ4LjAiVw!5e0!3m2!1sen!2sus!4v1234567890"
+                        width="100%"
+                        height="100%"
+                        style="border:0;"
+                        allowfullscreen=""
+                        loading="lazy"
+                        title="El Habanero Bar & Grill Location">
+                    </iframe>
+                    <div class="map-overlay">
+                        <a href="https://maps.google.com/?q=14830+1st+Ave+S+Burien+WA+98168" target="_blank" class="btn btn-primary">
+                            <span>Open in Google Maps</span>
+                            <svg viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-wave">
+            <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
+                <path d="M0,64 C288,120 576,0 864,64 C1152,128 1440,32 1440,32 L1440,120 L0,120 Z"></path>
+            </svg>
+        </div>
+        <div class="container">
+            <div class="footer-main">
+                <div class="footer-brand">
+                    <a href="#home" class="footer-logo">
+                        <span class="logo-icon">&#127798;</span>
+                        <span class="logo-text">El Habanero</span>
+                    </a>
+                    <p class="footer-tagline" data-translate="footer_tagline">Los Mejores Mariscos en Seattle</p>
+                    <p class="footer-desc" data-translate="footer_desc">Authentic Mexican seafood cuisine, live entertainment, and unforgettable moments in the heart of Burien.</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-col">
+                        <h4 data-translate="footer_links">Quick Links</h4>
+                        <ul>
+                            <li><a href="#about" data-translate="nav_about">About Us</a></li>
+                            <li><a href="#menu" data-translate="footer_menu">Our Menu</a></li>
+                            <li><a href="#specials" data-translate="footer_specials">Specials</a></li>
+                            <li><a href="#gallery" data-translate="nav_gallery">Gallery</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4 data-translate="footer_visit">Visit Us</h4>
+                        <ul>
+                            <li><a href="#contact" data-translate="nav_contact">Contact</a></li>
+                            <li><a href="#reservations" data-translate="footer_reservations">Reservations</a></li>
+                            <li><a href="https://maps.google.com/?q=14830+1st+Ave+S+Burien+WA+98168" target="_blank" data-translate="footer_directions">Directions</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4 data-translate="footer_connect">Connect</h4>
+                        <ul>
+                            <li><a href="https://www.facebook.com/elhabanerodeburien" target="_blank">Facebook</a></li>
+                            <li><a href="https://instagram.com/el_habanero_de_burien" target="_blank">Instagram</a></li>
+                            <li><a href="#reviews" data-translate="nav_reviews">Reviews</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p data-translate="footer_copyright">&copy; 2024 El Habanero Bar & Grill. All rights reserved.</p>
+                <p class="footer-credit" data-translate="footer_credit">Demo website created for illustration purposes.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="back-to-top" aria-label="Back to top">
+        <svg viewBox="0 0 24 24"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+    </button>
+
+    <!-- Success Modal -->
+    <div class="modal" id="success-modal">
+        <div class="modal-backdrop"></div>
+        <div class="modal-content">
+            <div class="modal-icon success">&#10003;</div>
+            <h3>Reservation Request Sent!</h3>
+            <p>Thank you for choosing El Habanero. We'll call you within 24 hours to confirm your reservation.</p>
+            <button class="btn btn-primary" onclick="closeModal()">Got it!</button>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+    <script src="js/translations.js"></script>
+</body>
+</html>

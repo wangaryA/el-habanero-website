@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Live music, events, and entertainment at El Habanero Bar & Grill in Burien, WA. Live bands, karaoke nights, and private parties.">
+    <title>Events & Entertainment | El Habanero Bar & Grill</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/events.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">
+                <span class="logo-text">El Habanero</span>
+                <span class="logo-sub">Bar & Grill</span>
+            </a>
+            <ul class="nav-menu">
+                <li><a href="index.html" data-translate="nav_home">Home</a></li>
+                <li><a href="index.html#menu" data-translate="nav_menu">Menu</a></li>
+                <li><a href="index.html#about" data-translate="nav_about">About</a></li>
+                <li><a href="events.html" class="active" data-translate="nav_events">Events</a></li>
+                <li><a href="index.html#gallery" data-translate="nav_gallery">Gallery</a></li>
+                <li><a href="index.html#contact" data-translate="nav_contact">Contact</a></li>
+            </ul>
+            <button class="lang-toggle" id="lang-toggle" aria-label="Toggle language">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+                <span>ES</span>
+            </button>
+            <a href="tel:+12062443443" class="nav-cta">
+                <span>Call Now</span>
+            </a>
+            <button class="nav-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="events-hero">
+        <div class="events-hero-bg"></div>
+        <div class="events-hero-content">
+            <span class="events-badge" data-translate="events_hero_badge">Live Entertainment</span>
+            <h1><span data-translate="events_hero_title">Events &</span> <span class="highlight" data-translate="events_hero_title_highlight">Entertainment</span></h1>
+            <p data-translate="events_hero_desc">Experience the vibrant nightlife at El Habanero - live bands, karaoke, and unforgettable celebrations</p>
+        </div>
+    </section>
+
+    <!-- Live Music Section -->
+    <section class="events-section" id="live-music">
+        <div class="container">
+            <div class="section-header center">
+                <span class="section-badge" data-translate="events_music_badge">Live Music</span>
+                <h2 class="section-title"><span data-translate="events_music_title">Featured</span> <span class="highlight" data-translate="events_music_title_highlight">Artists</span></h2>
+                <p class="section-desc" data-translate="events_music_desc">We host the best regional bands every weekend - from Tamborazo to Banda</p>
+            </div>
+
+            <div class="artists-grid">
+                <div class="artist-card featured">
+                    <div class="artist-image">
+                        <img src="images/other/588588636_1398471532288302_8333604925295747909_n.jpg" alt="Pura Lumbre Tamborazo" loading="lazy">
+                    </div>
+                    <div class="artist-info">
+                        <span class="artist-tag" data-translate="events_featured_artist">Featured Artist</span>
+                        <h3 data-translate="events_artist1_name">Pura Lumbre Tamborazo</h3>
+                        <p data-translate="events_artist1_desc">Authentic Tamborazo music that gets everyone on their feet</p>
+                    </div>
+                </div>
+
+                <div class="artist-card">
+                    <div class="artist-image">
+                        <img src="images/other/598436886_1409827221152733_5966901416868299272_n.jpg" alt="El Canario & Efectivo Show" loading="lazy">
+                    </div>
+                    <div class="artist-info">
+                        <h3 data-translate="events_artist2_name">El Canario & Efectivo Show</h3>
+                        <p data-translate="events_artist2_desc">Regional Mexican music at its finest</p>
+                    </div>
+                </div>
+
+                <div class="artist-card">
+                    <div class="artist-image">
+                        <img src="images/other/590619538_1399887688813353_6701698316150947128_n.jpg" alt="Live Band Performance" loading="lazy">
+                    </div>
+                    <div class="artist-info">
+                        <h3 data-translate="events_artist3_name">Weekend Live Bands</h3>
+                        <p data-translate="events_artist3_desc">Different artists every Thursday - Sunday</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Venue Atmosphere Section -->
+    <section class="events-section venue-section">
+        <div class="container">
+            <div class="section-header center">
+                <span class="section-badge" data-translate="events_venue_badge">The Venue</span>
+                <h2 class="section-title"><span data-translate="events_venue_title">Our</span> <span class="highlight" data-translate="events_venue_title_highlight">Atmosphere</span></h2>
+                <p class="section-desc" data-translate="events_venue_desc">A spacious venue with multiple TVs, comfortable seating, and the perfect ambiance for any occasion</p>
+            </div>
+
+            <div class="venue-gallery">
+                <div class="venue-item large">
+                    <img src="images/other/572285184_1371365654998890_5520308226715977432_n.jpg" alt="Restaurant Interior" loading="lazy">
+                    <div class="venue-overlay">
+                        <span data-translate="events_venue_main">Main Dining Area</span>
+                    </div>
+                </div>
+                <div class="venue-item">
+                    <img src="images/other/560563348_1356994313102691_666990076565636790_n.jpg" alt="Live Performance" loading="lazy">
+                    <div class="venue-overlay">
+                        <span data-translate="events_venue_live">Live Entertainment</span>
+                    </div>
+                </div>
+                <div class="venue-item">
+                    <img src="images/other/583142340_1388694283266027_3221429877106907085_n.jpg" alt="Server with Food" loading="lazy">
+                    <div class="venue-overlay">
+                        <span data-translate="events_venue_service">Friendly Service</span>
+                    </div>
+                </div>
+                <div class="venue-item">
+                    <img src="images/other/571260489_1370125311789591_7042065159377125260_n.jpg" alt="Bar Area" loading="lazy">
+                    <div class="venue-overlay">
+                        <span data-translate="events_venue_bar">Full Bar</span>
+                    </div>
+                </div>
+                <div class="venue-item">
+                    <img src="images/other/570386680_1368387748630014_4740010327189982179_n.jpg" alt="Dining Experience" loading="lazy">
+                    <div class="venue-overlay">
+                        <span data-translate="events_venue_dining">Dining Experience</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Parties & Celebrations Section -->
+    <section class="events-section celebrations-section">
+        <div class="container">
+            <div class="section-header center">
+                <span class="section-badge" data-translate="events_party_badge">Celebrations</span>
+                <h2 class="section-title"><span data-translate="events_party_title">Parties &</span> <span class="highlight" data-translate="events_party_title_highlight">Private Events</span></h2>
+                <p class="section-desc" data-translate="events_party_desc">From birthdays to corporate events - we make every celebration special</p>
+            </div>
+
+            <div class="celebrations-carousel">
+                <div class="celebration-track" id="celebration-track">
+                    <div class="celebration-card">
+                        <img src="images/other/594499345_1407195808082541_2423348556138445206_n.jpg" alt="Party at El Habanero" loading="lazy">
+                    </div>
+                    <div class="celebration-card">
+                        <img src="images/other/594525145_1407195811415874_336841985175427315_n.jpg" alt="Celebration" loading="lazy">
+                    </div>
+                    <div class="celebration-card">
+                        <img src="images/other/558901469_1363596525775803_7063479339636662921_n.jpg" alt="Group Event" loading="lazy">
+                    </div>
+                    <div class="celebration-card">
+                        <img src="images/other/558465093_1353676570101132_8356891902880693484_n.jpg" alt="Private Party" loading="lazy">
+                    </div>
+                    <div class="celebration-card">
+                        <img src="images/other/557489204_1347655717369884_3203588784909922878_n.jpg" alt="Birthday Celebration" loading="lazy">
+                    </div>
+                    <div class="celebration-card">
+                        <img src="images/other/585673629_1399056808896441_5884656903681194914_n.jpg" alt="Friends Gathering" loading="lazy">
+                    </div>
+                    <div class="celebration-card">
+                        <img src="images/other/587583819_1394816195987169_5263530475069056321_n.jpg" alt="Night Out" loading="lazy">
+                    </div>
+                    <div class="celebration-card">
+                        <img src="images/other/584437098_1392432372892218_4679572592295241851_n.jpg" alt="Event Night" loading="lazy">
+                    </div>
+                </div>
+                <button class="celebration-btn prev" id="celebration-prev" aria-label="Previous">
+                    <svg viewBox="0 0 24 24"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+                </button>
+                <button class="celebration-btn next" id="celebration-next" aria-label="Next">
+                    <svg viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </button>
+            </div>
+
+            <div class="party-cta">
+                <div class="party-cta-content">
+                    <h3 data-translate="events_party_cta_title">Planning a Private Event?</h3>
+                    <p data-translate="events_party_cta_desc">We offer private party packages with custom menus, live entertainment options, and dedicated service</p>
+                    <div class="party-cta-buttons">
+                        <a href="tel:+12062443443" class="btn btn-primary" data-translate="events_party_cta_btn">Call to Book: (206) 244-3443</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Weekly Schedule Section -->
+    <section class="events-section schedule-section">
+        <div class="container">
+            <div class="section-header center">
+                <span class="section-badge" data-translate="events_schedule_badge">Weekly Events</span>
+                <h2 class="section-title"><span data-translate="events_schedule_title">Entertainment</span> <span class="highlight" data-translate="events_schedule_title_highlight">Schedule</span></h2>
+            </div>
+
+            <div class="schedule-grid">
+                <div class="schedule-card">
+                    <div class="schedule-day" data-translate="events_thu">Thu</div>
+                    <div class="schedule-info">
+                        <h4 data-translate="events_thu_title">Karaoke Night</h4>
+                        <p data-translate="events_thu_desc">Show off your voice! DJ starts at 8PM</p>
+                    </div>
+                </div>
+                <div class="schedule-card">
+                    <div class="schedule-day" data-translate="events_fri">Fri</div>
+                    <div class="schedule-info">
+                        <h4 data-translate="events_fri_title">Live Music</h4>
+                        <p data-translate="events_fri_desc">Regional Mexican bands starting at 9PM</p>
+                    </div>
+                </div>
+                <div class="schedule-card featured">
+                    <div class="schedule-day" data-translate="events_sat">Sat</div>
+                    <div class="schedule-info">
+                        <h4 data-translate="events_sat_title">Live Bands + DJ</h4>
+                        <p data-translate="events_sat_desc">Our biggest night! Entertainment until 2AM</p>
+                    </div>
+                </div>
+                <div class="schedule-card">
+                    <div class="schedule-day" data-translate="events_sun">Sun</div>
+                    <div class="schedule-info">
+                        <h4 data-translate="events_sun_title">Family Day + Live Music</h4>
+                        <p data-translate="events_sun_desc">Afternoon entertainment for all ages</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- More Photos Grid -->
+    <section class="events-section more-photos-section">
+        <div class="container">
+            <div class="section-header center">
+                <span class="section-badge" data-translate="events_moments_badge">Gallery</span>
+                <h2 class="section-title"><span data-translate="events_moments_title">More</span> <span class="highlight" data-translate="events_moments_title_highlight">Moments</span></h2>
+            </div>
+
+            <div class="moments-grid">
+                <div class="moment-item">
+                    <img src="images/other/561018610_1360559739412815_5478417255686010055_n.jpg" alt="El Habanero Moment" loading="lazy">
+                </div>
+                <div class="moment-item">
+                    <img src="images/other/529324935_1296487712486685_3466267793134540256_n.jpg" alt="El Habanero Moment" loading="lazy">
+                </div>
+                <div class="moment-item">
+                    <img src="images/other/583181416_1388716436597145_6414484949578172174_n.jpg" alt="El Habanero Moment" loading="lazy">
+                </div>
+                <div class="moment-item">
+                    <img src="images/other/571347506_1374047918063997_1565234776009659753_n.jpg" alt="El Habanero Moment" loading="lazy">
+                </div>
+                <div class="moment-item">
+                    <img src="images/other/595029243_1406237824845006_5739011448723168855_n.jpg" alt="El Habanero Moment" loading="lazy">
+                </div>
+                <div class="moment-item">
+                    <img src="images/other/589723317_1398471545621634_8484671633633601716_n.jpg" alt="El Habanero Moment" loading="lazy">
+                </div>
+                <div class="moment-item">
+                    <img src="images/other/594151939_1404510555017733_7409243414736519090_n.jpg" alt="El Habanero Moment" loading="lazy">
+                </div>
+                <div class="moment-item">
+                    <img src="images/other/594324684_1404510625017726_4049026799055320765_n.jpg" alt="El Habanero Moment" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="events-cta">
+        <div class="container">
+            <div class="events-cta-content">
+                <h2 data-translate="events_cta_title">Ready to Join the Party?</h2>
+                <p data-translate="events_cta_desc">Visit us any night of the week for great food, drinks, and entertainment</p>
+                <div class="events-cta-buttons">
+                    <a href="index.html" class="btn btn-primary" data-translate="events_cta_menu">View Our Menu</a>
+                    <a href="tel:+12062443443" class="btn btn-outline" data-translate="events_cta_call">Call Us</a>
+                </div>
+                <div class="events-cta-hours">
+                    <p><strong data-translate="events_cta_hours">Extended Hours:</strong> <span data-translate="events_cta_hours_detail">Thu-Sun open until 2AM</span></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-main">
+                <div class="footer-brand">
+                    <a href="index.html" class="footer-logo">
+                        <span class="logo-text">El Habanero</span>
+                        <span class="logo-sub">Bar & Grill</span>
+                    </a>
+                    <p data-translate="footer_desc">Authentic Mexican cuisine, live entertainment, and unforgettable experiences in Burien, WA.</p>
+                    <div class="footer-social">
+                        <a href="https://facebook.com/elhabanerodeburien" target="_blank" aria-label="Facebook">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+                        </a>
+                        <a href="https://instagram.com/el_habanero_de_burien" target="_blank" aria-label="Instagram">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer-links">
+                    <div class="footer-col">
+                        <h4 data-translate="footer_links">Quick Links</h4>
+                        <ul>
+                            <li><a href="index.html" data-translate="nav_home">Home</a></li>
+                            <li><a href="index.html#menu" data-translate="nav_menu">Menu</a></li>
+                            <li><a href="index.html#about" data-translate="nav_about">About Us</a></li>
+                            <li><a href="events.html" data-translate="nav_events">Events</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4 data-translate="footer_contact">Contact</h4>
+                        <ul>
+                            <li>14830 1st Ave S</li>
+                            <li>Burien, WA 98168</li>
+                            <li><a href="tel:+12062443443">(206) 244-3443</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4 data-translate="footer_hours">Hours</h4>
+                        <ul>
+                            <li data-translate="contact_hours_mw">Mon-Wed: 10AM - 10PM</li>
+                            <li data-translate="contact_hours_ts">Thu-Sun: 10AM - 2AM</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p data-translate="footer_copyright">&copy; 2024 El Habanero Bar & Grill. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/events.js"></script>
+    <script src="js/translations.js"></script>
+</body>
+</html>
