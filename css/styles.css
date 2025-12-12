@@ -684,6 +684,17 @@ input, select, textarea {
     box-shadow: var(--shadow-lg);
 }
 
+.about-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform var(--transition-slow);
+}
+
+.about-img:hover img {
+    transform: scale(1.05);
+}
+
 .about-img-1 {
     width: 70%;
     height: 350px;
@@ -843,6 +854,17 @@ input, select, textarea {
     position: relative;
     height: 200px;
     overflow: hidden;
+}
+
+.card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform var(--transition-slow);
+}
+
+.signature-card:hover .card-image img {
+    transform: scale(1.1);
 }
 
 .card-image .img-placeholder {
@@ -1431,6 +1453,7 @@ input, select, textarea {
     max-width: 1000px;
     margin: 0 auto;
     overflow: hidden;
+    padding: 0 15px;
 }
 
 .reviews-track {
@@ -1443,7 +1466,7 @@ input, select, textarea {
     padding: 40px;
     background: var(--gray-900);
     border-radius: var(--radius-lg);
-    margin: 0 15px;
+    box-sizing: border-box;
 }
 
 .review-header {
