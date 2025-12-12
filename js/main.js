@@ -48,6 +48,7 @@ const Navigation = {
         this.navbar = document.getElementById('navbar');
         this.hamburger = document.getElementById('hamburger');
         this.navMenu = document.getElementById('nav-menu');
+        this.navOverlay = document.getElementById('nav-overlay');
         this.navLinks = document.querySelectorAll('.nav-link');
 
         if (!this.navbar) return;
@@ -65,6 +66,11 @@ const Navigation = {
             this.hamburger.addEventListener('click', () => this.toggleMobileMenu());
         }
 
+        // Close mobile menu on overlay click
+        if (this.navOverlay) {
+            this.navOverlay.addEventListener('click', () => this.closeMobileMenu());
+        }
+
         // Close mobile menu on link click
         this.navLinks.forEach(link => {
             link.addEventListener('click', () => {
@@ -72,6 +78,12 @@ const Navigation = {
                 this.setActiveLink(link);
             });
         });
+
+        // Close mobile menu on mobile reserve button click
+        const mobileReserveBtn = document.querySelector('.mobile-reserve-btn a');
+        if (mobileReserveBtn) {
+            mobileReserveBtn.addEventListener('click', () => this.closeMobileMenu());
+        }
 
         // Close mobile menu on outside click
         document.addEventListener('click', (e) => {
@@ -82,6 +94,13 @@ const Navigation = {
 
         // Update active link on scroll
         window.addEventListener('scroll', () => this.updateActiveOnScroll());
+
+        // Close mobile menu on window resize (if resizing to desktop)
+        window.addEventListener('resize', () => {
+            if (window.innerWidth > 768) {
+                this.closeMobileMenu();
+            }
+        });
     },
 
     handleScroll() {
@@ -95,12 +114,14 @@ const Navigation = {
     toggleMobileMenu() {
         this.hamburger.classList.toggle('active');
         this.navMenu.classList.toggle('active');
+        this.navOverlay?.classList.toggle('active');
         document.body.style.overflow = this.navMenu.classList.contains('active') ? 'hidden' : 'auto';
     },
 
     closeMobileMenu() {
         this.hamburger?.classList.remove('active');
         this.navMenu?.classList.remove('active');
+        this.navOverlay?.classList.remove('active');
         document.body.style.overflow = 'auto';
     },
 
